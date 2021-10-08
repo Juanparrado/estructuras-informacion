@@ -1,0 +1,28 @@
+package co.edu.ucundinamarca.tallern;
+
+import java.util.ArrayList;
+
+
+public class Dulce {
+ 
+    public static void main(String[] args){
+     ArrayList<String > a = new ArrayList();   
+     a.add("Chocoramo");
+     a.add("Chocolatina");
+     a.add("choball");
+     a.add("maxcombie");
+     a.add("mani moto");
+     a.add("nucita");
+     a.add("quipitos");
+     a.add("bombombum");
+     a.add("huevo quinder");
+     a.add("pingunos ");
+     a.add("papas");
+     for(String item:a){
+         System.out.println(item);
+     }
+    }
+       
+    
+    
+}
